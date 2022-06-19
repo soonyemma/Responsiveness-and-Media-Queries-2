@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap");
+
+:root {
+  --Pink: hsl(322, 100%, 66%);
+  --VeryPaleCyan: hsl(193, 100%, 96%);
+  --VeryDarkCyan: hsl(192, 100%, 9%);
+  --GrayishBlue: hsl(208, 11%, 55%);
+  --poppins: "Poppins", sans-serif;
+  --openSans: "Open Sans", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: var(--openSans);
+}
+header {
+  background: url(images/bg-hero-desktop.svg);
+  height: 100vh;
+  padding: 3em;
+  border: solid;
+  margin-bottom: 5em;
+}
+.logo {
+  margin-bottom: 30px;
+}
+button {
+  cursor: pointer;
+}
+.btn1 {
+  float: right;
+  background-color: rgb(248, 248, 248);
+  box-shadow: 0px 1px 3px;
+  font-weight: bold;
+}
+.btn1:hover {
+  background-color: #fff;
+  box-shadow: 0px 1px 5px #fff;
+}
+.btn2 {
+  background-color: var(--Pink);
+  color: var(--VeryPaleCyan);
+}
+.btn2:hover {
+  background-color: hsl(322, 100%, 82%);
+}
+header h2 {
+  font-family: var(--poppins);
+}
+header p {
+  margin: 30px 0;
+}
+header button {
+  border-radius: 20px;
+  padding: 10px 40px;
+  border: none;
+}
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.intro {
+  width: 45%;
+  margin-top: 70px;
+}
+.header-container img {
+  width: 50%;
+}
+main {
+  padding: 2em;
+  display: flex;
+  flex-direction: column;
+}
+.main-container {
+  border-radius: 10px;
+  margin: 1em 4em;
+  display: flex;
+  padding: 2em;
+  box-shadow: 1px 1px 5px;
+  border: solid;
+}
+.main-container .intro {
+  margin: 30px;
+  border: solid;
+}
+.main-container h3 {
+  font-family: var(--poppins);
+}
+.main-container img {
+  width: 50%;
+}
